@@ -1,0 +1,97 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.menunav-bar{
+    height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #08222d  ;
+  overflow-x: hidden;
+  transition: 0.2s;
+  padding-top: 60px;
+}
+.menunav-bar a{
+    padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+  min-width: 300px;
+  font-weight: 500;
+}
+.menunav-bar a:last-child{
+    color: red;
+}
+.menunav-bar a:hover{
+    color: #f1f1f1;
+}
+.menunav-bar .closebtn{
+    position: absolute;
+  top: 0;
+  left: 250px;
+  font-size: 50px;
+}
+.tab-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #f1f1f1;
+}
+/* .tab-bar span:last-child{
+    margin-left: 650px;
+    color: #f1f1f1;
+    font-size: 30px;
+} */
+.containerr{
+    line-height: 50px;
+    font-size: 30px;
+    
+    box-shadow: 0px 2px 0px 8px rgb(12 8 8 / 77%);
+}
+.main{
+    background-color: darkgrey;
+    padding: 30px 10px 186px 10px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+
+}
+.content .cart{
+    width: 330px;
+    height: 400px;
+}
+.content .cart img{
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+.bottom button{
+    font-size: 40px;
+    background-color: #08222d;
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+    color: #f1f1f1;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.bottom{
+    position: absolute;
+    right: 10px;
+    z-index: 9;
+    margin-top: -70px;
+}
